@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primer_html</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+
+    <body>
+        <!--Encabezado-->
+        <header>
+        <div class="container-nav">
+            <nav class="navbar">
+              <a href="index.html" class="brand"><img src="hongomario.png"></a>
+              <ul class="nav-links">
+                <li><a href="acerca de.html">Acerca de</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="comment.html">Barra de comentario</a></li>
+              </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+          </div>
+        </header>
+        <!--Main-->
+        <main>
+            <div class="container">
+                <!--Encabezado de nivel 1-->
+                <h1>¡Bienvenidos a mi primer Website!💗</h1>
+                <section>
+                <!--Párrafos-->
+                <div class="colum">
+                    <div class="row">
+                        <p id="titulo1">Soy <strong>Salvador</strong>, <em>¡y esta es mi primera página web!<em></em></p>
+                        <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                        <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán acrear una basesólida en el desarrollo web front-end.</p>
+                    </div>
+                    <!--Videos-->
+                    <div class="video">
+                        <video class="vid" width="560" height="315" src="Yo opino.mp4" controls></video>
+                        <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/_o6yvb5E2Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </section>
+                <section>
+                <div>
+                <!--Encabezado de nivel 2-->
+                <h2 class="titulo2">Esta es una lista:</h2>
+                <!--Lista en viñetas-->
+                <ul>
+                    <li>hola</li>
+                    <li>holaaaa💖</li>
+                </ul>
+                <!--Lista enumerada-->
+                <h2 class="titulo2">Esta es una lista enumerada:</h2>
+                <ol>
+                    <li>Hola</li>
+                    <li>Hola😎</li>
+                </ol>
+                <!--Encabezado de nivel 2-->
+                <h2>Este es un perro al azar<em id="emoji">👇</em></h2>
+                <!--Imagen-->
+                <figure>
+                <img src="licensed-image.jpeg" alt="Perro" height="100" width="100">
+                <figcaption>Perrito de google</figcaption>
+                </figure>
+                </div>
+            </section>
+        </main>
+        <!--Pie de página-->
+        <footer>
+            <p>Esta página web fue creada por el único e inigualable Salvador</p>
+            <button id="boton" onclick="showAlert()" aria-label="No hagas clic en mí"> ¡No hagas click en mí!</button>
+        </footer>
+        
+        <script src="desafio.js"></script>
+        <script src="formulario.js"></script>
+    </body>
+</html>
